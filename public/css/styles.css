@@ -1,0 +1,63 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #ffffcc;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #000;
+}
+.form-control{
+  margin: 10px 0;
+}
+.posts{
+  background-color: #ffff66;
+  margin : 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+.hrp{
+  border-top: 5px;
+  border-style:groove;
+
+  margin: 10px 0;
+  opacity: 0.3;
+}
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow:hidden;
+  padding-bottom:250px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: -50px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+  width: 100%;
+  text-align: center;
+  background-color: #f2f2f2;
+}
